@@ -20,12 +20,12 @@ To test the robustness of the algorithm, the following challenging functions are
 Saddle Point Function: f(x) = x[0]^2 - x[1]^2
 Himmelblau's Function: f(x) = (x[0]^2 + x[1] - 11)^2 + (x[0] + x[1]^2 - 7)^2
 Eggholder Function: f(x) = -(x[1] + 47) * sin(sqrt(abs(x[0]/2 + (x[1] + 47)))) - x[0] * sin(sqrt(abs(x[0] - (x[1] + 47))))
-Getting Started
+## Getting Started
 To use this implementation:
 
 Clone this repository.
 Import the fletcher_reeves_step_by_step function into your Python script.
 Define or select an objective function.
 Execute the function with an initial guess, for example: fletcher_reeves_step_by_step(rosenbrock, x0=[0, 0]).
-Dependencies
+##Dependencies
 NumPy
